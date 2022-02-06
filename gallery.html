@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/src/img/Logo.ico" type="image/x-icon" />
+    <title>Galería</title>
+    <style>
+      #enlaces {
+        text-decoration: none;
+        color: azure;
+        font-family: "Oswald", sans-serif;
+        border-radius: 4px;
+      }
+
+      #enlaces:hover {
+        background-color: #328cc1;
+        transition: 400ms;
+      }
+      #cabeceraGallery {
+        position: relative;
+      }
+      #txtGallery {
+        position: absolute;
+        top: 60px;
+        left: 570px;
+        color: azure;
+        font-family: "Oswald", sans-serif;
+        text-align: center;
+        font-size: 72px;
+        text-shadow: 1px 1px 4px #000000;
+      }
+
+      .contenedorF4 {
+        position: relative;
+        text-align: center;
+        color: azure;
+        font-family: "Oswald", sans-serif;
+      }
+
+      .textoF4 {
+        position: absolute;
+        top: 1370px;
+        left: 520px;
+        text-shadow: 1px 1px 4px #000000;
+      }
+
+      div.gallery {
+        margin: 5px;
+        border: 2px solid #328cc1;
+        float: left;
+        width: 650px;
+      }
+
+      div.gallery img {
+        width: 650px;
+        height: 600px;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+        color: azure;
+        font-family: "Oswald", sans-serif;
+      }
+    </style>
+  </head>
+  <body style="margin: 0; background-color: #083c5d">
+    <header id="cabeceraGallery">
+      <img
+        style="object-fit: cover"
+        src="src/img/wishlist.jpg"
+        height="300px"
+        width="100%"
+      />
+      <h1 id="txtGallery">Galería</h1>
+      <nav style="text-align: center">
+        <span style="font-size: 34px; padding: 12x"
+          ><a id="enlaces" href="index.html">VOLVER AL INICIO</a></span
+        >
+      </nav>
+    </header>
+    <main style="background-color: #083c5d">
+      <section
+        style="
+          text-align: justify;
+          font-size: 24px;
+          padding: 1px 7px 2px 5px;
+          background-color: #328cc1;
+          color: rgb(24, 23, 23);
+          font-family: 'Oswald', sans-serif;
+          text-align: center;
+        "
+      >
+        <h1>Algunos de mis proyectos</h1>
+      </section>
+      <section>
+        <div class="gallery">
+          <img src="src/img/General.jpg" alt="Estantería" />
+          <div class="desc">Estantería de juguetes en 3D</div>
+        </div>
+
+        <div class="gallery">
+          <img src="src/img/3D_Viewer.PNG" alt="3D_Viewer" />
+          <div class="desc">Visor 3D de elementos de Hardware</div>
+        </div>
+
+        <div class="gallery">
+          <img src="src/img/LogoEQ.png" alt="EQ" />
+          <div class="desc">
+            Aplicación de escritorio para realizar matrículas
+          </div>
+        </div>
+
+        <div class="gallery">
+          <img src="src/img/Me.jpg" alt="Daniel" />
+          <div class="desc">Una foto mía, por si no me han visto aún</div>
+        </div>
+      </section>
+    </main>
+    <div class="contenedorF4">
+      <footer>
+        <img
+          style="object-fit: cover"
+          src="src/img/wishlist.jpg"
+          height="100px"
+          width="100%"
+        />
+        <p class="textoF4">
+          Daniel Vélez 2022 | Todos los derechos reservados.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
